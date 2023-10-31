@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB420D7A2AF09A62006A2DF7 /* tono.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB420D792AF09A61006A2DF7 /* tono.mp3 */; };
 		DB47984D2AEF36B800B54F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB47984C2AEF36B800B54F52 /* AppDelegate.swift */; };
 		DB47984F2AEF36B800B54F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB47984E2AEF36B800B54F52 /* SceneDelegate.swift */; };
 		DB4798512AEF36B800B54F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4798502AEF36B800B54F52 /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		DB4798572AEF36B800B54F52 /* lab10_PachoSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB4798552AEF36B800B54F52 /* lab10_PachoSoundBoard.xcdatamodeld */; };
 		DB4798592AEF36C300B54F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4798582AEF36C300B54F52 /* Assets.xcassets */; };
 		DB47985C2AEF36C300B54F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB47985A2AEF36C300B54F52 /* LaunchScreen.storyboard */; };
+		DB4798642AEF459400B54F52 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4798632AEF459400B54F52 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB420D792AF09A61006A2DF7 /* tono.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tono.mp3; sourceTree = "<group>"; };
 		DB4798492AEF36B800B54F52 /* lab10-PachoSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab10-PachoSoundBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB47984C2AEF36B800B54F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB47984E2AEF36B800B54F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		DB4798582AEF36C300B54F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB47985B2AEF36C300B54F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB47985D2AEF36C300B54F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4798632AEF459400B54F52 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 		DB47984B2AEF36B800B54F52 /* lab10-PachoSoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				DB420D792AF09A61006A2DF7 /* tono.mp3 */,
 				DB47984C2AEF36B800B54F52 /* AppDelegate.swift */,
 				DB47984E2AEF36B800B54F52 /* SceneDelegate.swift */,
 				DB4798502AEF36B800B54F52 /* ViewController.swift */,
 				DB4798522AEF36B800B54F52 /* Main.storyboard */,
+				DB4798632AEF459400B54F52 /* SoundViewController.swift */,
 				DB4798582AEF36C300B54F52 /* Assets.xcassets */,
 				DB47985A2AEF36C300B54F52 /* LaunchScreen.storyboard */,
 				DB47985D2AEF36C300B54F52 /* Info.plist */,
@@ -130,6 +136,7 @@
 			files = (
 				DB47985C2AEF36C300B54F52 /* LaunchScreen.storyboard in Resources */,
 				DB4798592AEF36C300B54F52 /* Assets.xcassets in Resources */,
+				DB420D7A2AF09A62006A2DF7 /* tono.mp3 in Resources */,
 				DB4798542AEF36B800B54F52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				DB4798572AEF36B800B54F52 /* lab10_PachoSoundBoard.xcdatamodeld in Sources */,
 				DB47984D2AEF36B800B54F52 /* AppDelegate.swift in Sources */,
 				DB47984F2AEF36B800B54F52 /* SceneDelegate.swift in Sources */,
+				DB4798642AEF459400B54F52 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
